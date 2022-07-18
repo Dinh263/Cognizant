@@ -134,7 +134,14 @@ Contain a test case
 
 ## 4. run test cases
 Open terminal and go to root folder /Oppenheimer
-and run command: robot --outputdir Reports --variablefile config.py testsuites/
++ Step 1: cause we are using 'Playwright' Framework for UI Test then we have to install Playwright Framework first. Open terminal and run the following command: rfbrowser init
+and wait until the command run complete. It will take sometime because it need to download some driver for us.
+Noted: this step also download the driver for us.  
+
+![init browser framwork](./Oppenheimer/images/img20.png )
+
+
++ Step 2: after complete step 1, you can continue run this command to run test case: robot --outputdir Reports --variablefile config.py testsuites/
 
 note: 
 + if you want to api test only you can specify command like this: robot --outputdir Reports --variablefile config.py testsuites/api/
