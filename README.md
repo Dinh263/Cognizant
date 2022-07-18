@@ -146,6 +146,7 @@ ex: robot --outputdir Reports --variablefile config.py --include api testsuites/
 
 ![how to run test](./Oppenheimer/images/img17.png )
 
+## 5. check report
 After run the test, you will see the report in the folder /Oppenheimer/Reports
 
 ![check report](./Oppenheimer/images/img18.png )
