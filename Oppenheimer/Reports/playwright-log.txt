@@ -1,11 +1,98 @@
-{"level":30,"time":"2022-07-17T18:36:57.208Z","pid":77200,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Listening on 58165"}
-{"level":30,"time":"2022-07-17T18:36:57.237Z","pid":77200,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-17T18:36:57.237Z","pid":77200,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-17T18:36:57.240Z","pid":77200,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-17T18:36:57.241Z","pid":77200,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-17T18:36:57.344Z","pid":77200,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-17T18:36:57.345Z","pid":77200,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-17T18:36:57.347Z","pid":77200,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-17T18:36:57.348Z","pid":77200,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-07-17T18:36:57.379Z","pid":77200,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2022-07-17T18:36:57.380Z","pid":77200,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2022-07-18T04:15:54.144Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Listening on 54158"}
+{"level":30,"time":"2022-07-18T04:15:54.263Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.264Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.268Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.268Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.384Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.384Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.386Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.386Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.547Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.547Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.549Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.549Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.774Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.774Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.776Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.777Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.824Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.824Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.827Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.827Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.876Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.876Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.878Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.878Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.929Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.929Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.931Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.931Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.990Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.990Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.992Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:54.992Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:15:55.014Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-07-18T04:15:55.471Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-07-18T04:15:55.473Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method newContext"}
+{"level":30,"time":"2022-07-18T04:15:55.474Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-07-18T04:15:55.474Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Trace file: "}
+{"level":30,"time":"2022-07-18T04:15:55.497Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Changed active context"}
+{"level":30,"time":"2022-07-18T04:15:55.497Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method newContext"}
+{"level":30,"time":"2022-07-18T04:15:55.498Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-07-18T04:15:55.498Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-07-18T04:15:55.856Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Video path: undefined"}
+{"level":30,"time":"2022-07-18T04:15:55.856Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Changed active page"}
+{"level":30,"time":"2022-07-18T04:15:57.016Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method newPage"}
+{"level":30,"time":"2022-07-18T04:15:57.023Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-07-18T04:15:57.023Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Strict mode is enabled, find Locator with css=input[type=file] in page."}
+{"level":30,"time":"2022-07-18T04:15:57.049Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-07-18T04:15:57.051Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Strict mode is enabled, find Locator with css=input[type=file] in page."}
+{"level":30,"time":"2022-07-18T04:16:27.645Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2022-07-18T04:16:27.650Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Removed page=c4c0f53d-0863-4308-87a1-849c85d9edaa from context=51d0ae97-6ba4-4efb-9d10-ab6fea07948d page stack"}
+{"level":30,"time":"2022-07-18T04:16:27.681Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2022-07-18T04:16:27.683Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:16:27.683Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:16:27.685Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:16:27.685Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:16:27.726Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-07-18T04:16:27.911Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-07-18T04:16:27.913Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method newContext"}
+{"level":30,"time":"2022-07-18T04:16:27.913Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-07-18T04:16:27.913Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Trace file: "}
+{"level":30,"time":"2022-07-18T04:16:27.916Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Changed active context"}
+{"level":30,"time":"2022-07-18T04:16:27.916Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method newContext"}
+{"level":30,"time":"2022-07-18T04:16:27.918Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-07-18T04:16:27.918Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-07-18T04:16:28.125Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Video path: undefined"}
+{"level":30,"time":"2022-07-18T04:16:28.125Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Changed active page"}
+{"level":30,"time":"2022-07-18T04:16:28.993Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method newPage"}
+{"level":30,"time":"2022-07-18T04:16:28.999Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-07-18T04:16:28.999Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Strict mode is enabled, find Locator with css=a[href=dispense] in page."}
+{"level":30,"time":"2022-07-18T04:16:29.022Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-07-18T04:16:29.024Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getStyle"}
+{"level":30,"time":"2022-07-18T04:16:29.024Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Getting css of element on page"}
+{"level":30,"time":"2022-07-18T04:16:29.024Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Strict mode is enabled, find Locator with css=a[href=dispense] in page."}
+{"level":30,"time":"2022-07-18T04:16:29.044Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getStyle"}
+{"level":30,"time":"2022-07-18T04:16:29.051Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-07-18T04:16:29.051Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Strict mode is enabled, find Locator with css=a[href=dispense] in page."}
+{"level":30,"time":"2022-07-18T04:16:29.055Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-07-18T04:16:29.057Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getText"}
+{"level":30,"time":"2022-07-18T04:16:29.057Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Strict mode is enabled, find Locator with css=a[href=dispense] in page."}
+{"level":30,"time":"2022-07-18T04:16:29.065Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Retrieved text for element css=a[href=dispense] containing Dispense Now"}
+{"level":30,"time":"2022-07-18T04:16:29.065Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getText"}
+{"level":30,"time":"2022-07-18T04:16:29.069Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-07-18T04:16:29.070Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Strict mode is enabled, find Locator with css=a[href=dispense] in page."}
+{"level":30,"time":"2022-07-18T04:16:29.073Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-07-18T04:16:29.075Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method click"}
+{"level":30,"time":"2022-07-18T04:16:29.075Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Strict mode is enabled, find Locator with css=a[href=dispense] in page."}
+{"level":30,"time":"2022-07-18T04:16:29.143Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method click"}
+{"level":30,"time":"2022-07-18T04:16:29.152Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"<!DOCTYPE html><html lang=\"en\"><head>\n    <title>Dispense!!</title>\n    <link href=\"https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900\" rel=\"stylesheet\">\n    <link href=\"https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css\" rel=\"stylesheet\">\n    <link href=\"https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css\" rel=\"stylesheet\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui\">\n</head>\n<body>\n\n<div id=\"app\">\n    <v-app>\n        <v-content>\n            <v-container>\n                <div class=\"display-4 font-weight-bold\">Cash dispensed</div>\n            </v-container>\n        </v-content>\n    </v-app>\n</div>\n\n<script src=\"https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js\"></script></body></html>"}
+{"level":30,"time":"2022-07-18T04:16:29.156Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2022-07-18T04:16:29.157Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Removed page=e2994c7e-9f70-470c-99a0-847d32d17202 from context=0ec4653e-3192-4f0b-baff-3d77c56446ce page stack"}
+{"level":30,"time":"2022-07-18T04:16:29.180Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2022-07-18T04:16:29.182Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:16:29.183Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:16:29.184Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:16:29.184Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-07-18T04:16:29.301Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2022-07-18T04:16:29.301Z","pid":89941,"hostname":"admins-macbook-pro.lcincom.com.beta.tailscale.net","msg":"End of node method closeAllBrowsers"}
