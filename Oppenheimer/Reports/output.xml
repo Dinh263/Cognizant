@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.10 on darwin)" generated="20220718 01:36:55.881" rpa="false" schemaversion="3">
+<suite id="s1" name="Api" source="/Users/admin/learning/python/Oppenheimer/testsuites/api">
+<suite id="s1-s1" name="CalculatorApiTestsuite" source="/Users/admin/learning/python/Oppenheimer/testsuites/api/CalculatorApiTestsuite.robot">
+<test id="s1-s1-t1" name="As the Clerk, I can not insert a working class hero into database with empty salary via an API" line="129">
+<kw name="Make POST Request To Clear Database" library="DatabaseApiSteps" type="SETUP">
+<doc>This keyword is used for sending a POST request to clear database</doc>
+<kw name="Create Session" library="RequestsLibrary">
+<arg>session</arg>
+<arg>${BASE_URL}</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<msg timestamp="20220718 01:36:57.243" level="INFO">Creating Session using : alias=session, url=http://localhost:8080/, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20220718 01:36:57.243" endtime="20220718 01:36:57.243"/>
+</kw>
+<kw name="Create Dictionary" library="BuiltIn">
+<var>${headers}</var>
+<arg>accept=*/*</arg>
+<arg>Content-Type=application/json</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<msg timestamp="20220718 01:36:57.244" level="INFO">${headers} = {'accept': '*/*', 'Content-Type': 'application/json'}</msg>
+<status status="PASS" starttime="20220718 01:36:57.244" endtime="20220718 01:36:57.244"/>
+</kw>
+<kw name="POST On Session" library="RequestsLibrary">
+<var>${response}</var>
+<arg>session</arg>
+<arg>${URI_RAKE_DB}</arg>
+<arg>headers=${headers}</arg>
+<doc>Sends a POST request on a previously created HTTP Session.</doc>
+<msg timestamp="20220718 01:36:57.262" level="INFO">POST Request : url=http://localhost:8080/calculator/rakeDatabase 
+ path_url=/calculator/rakeDatabase 
+ headers={'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '0'} 
+ body=None 
+ </msg>
+<msg timestamp="20220718 01:36:57.263" level="INFO">POST Response : url=http://localhost:8080/calculator/rakeDatabase 
+ status=200, reason= 
+ headers={'Content-Type': 'text/plain;charset=UTF-8', 'Content-Length': '21', 'Date': 'Sun, 17 Jul 2022 18:36:57 GMT'} 
+ body=Successfully raked DB 
+ </msg>
+<msg timestamp="20220718 01:36:57.263" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20220718 01:36:57.244" endtime="20220718 01:36:57.263"/>
+</kw>
+<status status="PASS" starttime="20220718 01:36:57.242" endtime="20220718 01:36:57.263"/>
+</kw>
+<kw name="Generate A Random Birthday" library="CommonSteps">
+<var>${birthday}</var>
+<doc>This keyword is used for genarating a random birthday which age &gt;=18 and age&lt;=80</doc>
+<kw name="Date Of Birth" library="FakerLibrary">
+<var>${date}</var>
+<arg>minimum_age=18</arg>
+<arg>maximum_age=80</arg>
+<doc>Generate a random date of birth represented as a Date object,
+constrained by optional miminimum_age and maximum_age
+parameters.</doc>
+<msg timestamp="20220718 01:36:57.265" level="INFO">${date} = 2003-07-31</msg>
+<status status="PASS" starttime="20220718 01:36:57.264" endtime="20220718 01:36:57.265"/>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<var>${date}</var>
+<arg>${date}</arg>
+<doc>Converts the given item to a Unicode string.</doc>
+<msg timestamp="20220718 01:36:57.265" level="INFO">${date} = 2003-07-31</msg>
+<status status="PASS" starttime="20220718 01:36:57.265" endtime="20220718 01:36:57.265"/>
+</kw>
+<kw name="Split String" library="String">
+<var>${arr}</var>
+<arg>${date}</arg>
+<arg>separator=-</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<msg timestamp="20220718 01:36:57.266" level="INFO">${arr} = ['2003', '07', '31']</msg>
+<status status="PASS" starttime="20220718 01:36:57.265" endtime="20220718 01:36:57.266"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${birthday}</var>
+<arg>${arr[2]}${arr[1]}${arr[0]}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20220718 01:36:57.267" level="INFO">${birthday} = 31072003</msg>
+<status status="PASS" starttime="20220718 01:36:57.266" endtime="20220718 01:36:57.267"/>
+</kw>
+<msg timestamp="20220718 01:36:57.268" level="INFO">${birthday} = 31072003</msg>
+<status status="PASS" starttime="20220718 01:36:57.263" endtime="20220718 01:36:57.268"/>
+</kw>
+<kw name="Generate A Random Name" library="CommonSteps">
+<var>${name}</var>
+<doc>This keyword is used for genarating a random name</doc>
+<kw name="Name" library="FakerLibrary">
+<var>${name}</var>
+<doc>:example 'John Doe'</doc>
+<msg timestamp="20220718 01:36:57.269" level="INFO">${name} = Barbara Wilkinson</msg>
+<status status="PASS" starttime="20220718 01:36:57.268" endtime="20220718 01:36:57.269"/>
+</kw>
+<msg timestamp="20220718 01:36:57.269" level="INFO">${name} = Barbara Wilkinson</msg>
+<status status="PASS" starttime="20220718 01:36:57.268" endtime="20220718 01:36:57.269"/>
+</kw>
+<kw name="Generate A Random Gender" library="CommonSteps">
+<var>${gender}</var>
+<doc>This keyword is used for genarating a random gender, only return 'M' or 'F'</doc>
+<kw name="Evaluate" library="BuiltIn">
+<var>${gender}</var>
+<arg>random.choice(['M', 'F'])</arg>
+<arg>random</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20220718 01:36:57.270" level="INFO">${gender} = M</msg>
+<status status="PASS" starttime="20220718 01:36:57.270" endtime="20220718 01:36:57.270"/>
+</kw>
+<msg timestamp="20220718 01:36:57.270" level="INFO">${gender} = M</msg>
+<status status="PASS" starttime="20220718 01:36:57.270" endtime="20220718 01:36:57.270"/>
+</kw>
+<kw name="Generate A Random Natural ID Code" library="CommonSteps">
+<var>${natid}</var>
+<arg>${name}</arg>
+<doc>This keyword is used for genarating a random natural ID , actually it will return an unique email.</doc>
+<kw name="Free Email Domain" library="FakerLibrary">
+<var>${email_domain}</var>
+<msg timestamp="20220718 01:36:57.271" level="INFO">${email_domain} = yahoo.com</msg>
+<status status="PASS" starttime="20220718 01:36:57.271" endtime="20220718 01:36:57.271"/>
+</kw>
+<kw name="Replace String" library="String">
+<var>${p_name}</var>
+<arg>${p_name}</arg>
+<arg>${SPACE}</arg>
+<arg>.</arg>
+<doc>Replaces ``search_for`` in the given ``string`` with ``replace_with``.</doc>
+<msg timestamp="20220718 01:36:57.272" level="INFO">${p_name} = Barbara.Wilkinson</msg>
+<status status="PASS" starttime="20220718 01:36:57.272" endtime="20220718 01:36:57.272"/>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<var>${epoch_time}</var>
+<arg>int(time.time())</arg>
+<arg>time</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20220718 01:36:57.272" level="INFO">${epoch_time} = 1658083017</msg>
+<status status="PASS" starttime="20220718 01:36:57.272" endtime="20220718 01:36:57.272"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${email}</var>
+<arg>${p_name}_${epoch_time}@${email_domain}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20220718 01:36:57.273" level="INFO">${email} = Barbara.Wilkinson_1658083017@yahoo.com</msg>
+<status status="PASS" starttime="20220718 01:36:57.272" endtime="20220718 01:36:57.273"/>
+</kw>
+<msg timestamp="20220718 01:36:57.273" level="INFO">${natid} = Barbara.Wilkinson_1658083017@yahoo.com</msg>
+<status status="PASS" starttime="20220718 01:36:57.271" endtime="20220718 01:36:57.273"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${salary}</var>
+<arg>${EMPTY}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20220718 01:36:57.274" level="INFO">${salary} = </msg>
+<status status="PASS" starttime="20220718 01:36:57.274" endtime="20220718 01:36:57.274"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${tax}</var>
+<arg>500</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20220718 01:36:57.275" level="INFO">${tax} = 500</msg>
+<status status="PASS" starttime="20220718 01:36:57.274" endtime="20220718 01:36:57.275"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<var>${response}</var>
+<arg>Make POST Request To Insert A Person</arg>
+<arg>${birthday}</arg>
+<arg>${gender}</arg>
+<arg>${name}</arg>
+<arg>${natid}</arg>
+<arg>${salary}</arg>
+<arg>${tax}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<kw name="Make POST Request To Insert A Person" library="CalculatorApiSteps">
+<arg>${birthday}</arg>
+<arg>${gender}</arg>
+<arg>${name}</arg>
+<arg>${natid}</arg>
+<arg>${salary}</arg>
+<arg>${tax}</arg>
+<doc>This keyword is used for sending a POST request to create new person</doc>
+<kw name="Create Session" library="RequestsLibrary">
+<arg>session</arg>
+<arg>${BASE_URL}</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<msg timestamp="20220718 01:36:57.276" level="INFO">Creating Session using : alias=session, url=http://localhost:8080/, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20220718 01:36:57.276" endtime="20220718 01:36:57.277"/>
+</kw>
+<kw name="Create Dictionary" library="BuiltIn">
+<var>${headers}</var>
+<arg>accept=*/*</arg>
+<arg>Content-Type=application/json</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<msg timestamp="20220718 01:36:57.277" level="INFO">${headers} = {'accept': '*/*', 'Content-Type': 'application/json'}</msg>
+<status status="PASS" starttime="20220718 01:36:57.277" endtime="20220718 01:36:57.277"/>
+</kw>
+<kw name="Create Dictionary" library="BuiltIn">
+<var>${json}</var>
+<arg>birthday=${p_birthday}</arg>
+<arg>gender=${p_gender}</arg>
+<arg>name=${p_name}</arg>
+<arg>natid=${p_natid}</arg>
+<arg>salary=${p_salary}</arg>
+<arg>tax=${p_tax}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<msg timestamp="20220718 01:36:57.278" level="INFO">${json} = {'birthday': '31072003', 'gender': 'M', 'name': 'Barbara Wilkinson', 'natid': 'Barbara.Wilkinson_1658083017@yahoo.com', 'salary': '', 'tax': '500'}</msg>
+<status status="PASS" starttime="20220718 01:36:57.277" endtime="20220718 01:36:57.278"/>
+</kw>
+<kw name="POST On Session" library="RequestsLibrary">
+<var>${response}</var>
+<arg>session</arg>
+<arg>${URI_CALCULATOR_INSERT}</arg>
+<arg>headers=${headers}</arg>
+<arg>json=${json}</arg>
+<doc>Sends a POST request on a previously created HTTP Session.</doc>
+<msg timestamp="20220718 01:36:57.321" level="INFO">POST Request : url=http://localhost:8080/calculator/insert 
+ path_url=/calculator/insert 
+ headers={'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '147'} 
+ body=b'{"birthday": "31072003", "gender": "M", "name": "Barbara Wilkinson", "natid": "Barbara.Wilkinson_1658083017@yahoo.com", "salary": "", "tax": "500"}' 
+ </msg>
+<msg timestamp="20220718 01:36:57.321" level="INFO">POST Response : url=http://localhost:8080/calculator/insert 
+ status=500, reason= 
+ headers={'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Sun, 17 Jul 2022 18:36:57 GMT', 'Connection': 'close'} 
+ body={"timestamp":"2022-07-17T18:36:57.318+0000","status":500,"error":"Internal Server Error","message":"No message available","path":"/calculator/insert"} 
+ </msg>
+<msg timestamp="20220718 01:36:57.321" level="FAIL">HTTPError: 500 Server Error:  for url: http://localhost:8080/calculator/insert</msg>
+<status status="FAIL" starttime="20220718 01:36:57.278" endtime="20220718 01:36:57.324"/>
+</kw>
+<status status="FAIL" starttime="20220718 01:36:57.275" endtime="20220718 01:36:57.325"/>
+</kw>
+<msg timestamp="20220718 01:36:57.325" level="INFO">${response} = ('FAIL', 'HTTPError: 500 Server Error:  for url: http://localhost:8080/calculator/insert')</msg>
+<status status="PASS" starttime="20220718 01:36:57.275" endtime="20220718 01:36:57.325"/>
+</kw>
+<kw name="Assert Response Error" library="CommonSteps">
+<arg>${response}</arg>
+<kw name="Convert To List" library="Collections">
+<var>${list}</var>
+<arg>${p_response}</arg>
+<doc>Converts the given ``item`` to a Python ``list`` type.</doc>
+<msg timestamp="20220718 01:36:57.326" level="INFO">${list} = ['FAIL', 'HTTPError: 500 Server Error:  for url: http://localhost:8080/calculator/insert']</msg>
+<status status="PASS" starttime="20220718 01:36:57.326" endtime="20220718 01:36:57.326"/>
+</kw>
+<kw name="Should Be True" library="BuiltIn">
+<arg>'${list}[0]'=='FAIL'</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" starttime="20220718 01:36:57.326" endtime="20220718 01:36:57.326"/>
+</kw>
+<kw name="Should Start With" library="BuiltIn">
+<arg>${list}[1]</arg>
+<arg>HTTPError: 500 Server Error:</arg>
+<doc>Fails if the string ``str1`` does not start with the string ``str2``.</doc>
+<status status="PASS" starttime="20220718 01:36:57.326" endtime="20220718 01:36:57.327"/>
+</kw>
+<status status="PASS" starttime="20220718 01:36:57.325" endtime="20220718 01:36:57.327"/>
+</kw>
+<kw name="Make Post Request To Get Tax Relief" library="CalculatorApiSteps">
+<var>${response_tax_relief}</var>
+<doc>This keyword is used for sending a GET request to get all current tax relief</doc>
+<kw name="Create Session" library="RequestsLibrary">
+<arg>session</arg>
+<arg>${BASE_URL}</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<msg timestamp="20220718 01:36:57.327" level="INFO">Creating Session using : alias=session, url=http://localhost:8080/, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20220718 01:36:57.327" endtime="20220718 01:36:57.328"/>
+</kw>
+<kw name="Create Dictionary" library="BuiltIn">
+<var>${headers}</var>
+<arg>accept=*/*</arg>
+<arg>Content-Type=application/json</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<msg timestamp="20220718 01:36:57.328" level="INFO">${headers} = {'accept': '*/*', 'Content-Type': 'application/json'}</msg>
+<status status="PASS" starttime="20220718 01:36:57.328" endtime="20220718 01:36:57.328"/>
+</kw>
+<kw name="GET On Session" library="RequestsLibrary">
+<var>${response}</var>
+<arg>session</arg>
+<arg>${URI_TAX_RELIEF}</arg>
+<arg>headers=${headers}</arg>
+<doc>Sends a GET request on a previously created HTTP Session.</doc>
+<msg timestamp="20220718 01:36:57.337" level="INFO">GET Request : url=http://localhost:8080/calculator/taxRelief 
+ path_url=/calculator/taxRelief 
+ headers={'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json'} 
+ body=None 
+ </msg>
+<msg timestamp="20220718 01:36:57.337" level="INFO">GET Response : url=http://localhost:8080/calculator/taxRelief 
+ status=200, reason= 
+ headers={'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Sun, 17 Jul 2022 18:36:57 GMT'} 
+ body=[] 
+ </msg>
+<msg timestamp="20220718 01:36:57.337" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20220718 01:36:57.328" endtime="20220718 01:36:57.337"/>
+</kw>
+<msg timestamp="20220718 01:36:57.338" level="INFO">${response_tax_relief} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20220718 01:36:57.327" endtime="20220718 01:36:57.338"/>
+</kw>
+<kw name="Get Response Status And Body" library="CommonSteps">
+<var>${actual_code}</var>
+<var>${actual_content}</var>
+<arg>${response_tax_relief}</arg>
+<kw name="Set Variable" library="BuiltIn">
+<var>${code}</var>
+<arg>${p_response_api.status_code}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20220718 01:36:57.339" level="INFO">${code} = 200</msg>
+<status status="PASS" starttime="20220718 01:36:57.338" endtime="20220718 01:36:57.339"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${content}</var>
+<arg>${p_response_api.content}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20220718 01:36:57.340" level="INFO">${content} = []</msg>
+<status status="PASS" starttime="20220718 01:36:57.339" endtime="20220718 01:36:57.340"/>
+</kw>
+<msg timestamp="20220718 01:36:57.340" level="INFO">${actual_code} = 200</msg>
+<msg timestamp="20220718 01:36:57.340" level="INFO">${actual_content} = []</msg>
+<status status="PASS" starttime="20220718 01:36:57.338" endtime="20220718 01:36:57.340"/>
+</kw>
+<kw name="Assert Response Status Is Correct" library="CommonSteps">
+<arg>200</arg>
+<arg>${actual_code}</arg>
+<kw name="Should Be True" library="BuiltIn">
+<arg>'${p_expected_status}'=='${p_actual_status}'</arg>
+<arg>msg=Status code return is not correct! Expected '${p_expected_status}' but Actual: '${p_actual_status}'</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" starttime="20220718 01:36:57.341" endtime="20220718 01:36:57.342"/>
+</kw>
+<status status="PASS" starttime="20220718 01:36:57.340" endtime="20220718 01:36:57.342"/>
+</kw>
+<kw name="Assert Tax Relief Is Empty" library="CalculatorApiSteps">
+<arg>${actual_content}</arg>
+<kw name="Convert String To JSON" library="JSONLibrary">
+<var>${json}</var>
+<arg>${p_response_content_relief}</arg>
+<doc>Convert String to JSON object</doc>
+<msg timestamp="20220718 01:36:57.343" level="INFO">${json} = []</msg>
+<status status="PASS" starttime="20220718 01:36:57.342" endtime="20220718 01:36:57.343"/>
+</kw>
+<kw name="Get Length" library="BuiltIn">
+<var>${len}</var>
+<arg>${json}</arg>
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<msg timestamp="20220718 01:36:57.343" level="INFO">Length is 0</msg>
+<msg timestamp="20220718 01:36:57.343" level="INFO">${len} = 0</msg>
+<status status="PASS" starttime="20220718 01:36:57.343" endtime="20220718 01:36:57.343"/>
+</kw>
+<kw name="Should Be True" library="BuiltIn">
+<arg>${len}==0</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" starttime="20220718 01:36:57.343" endtime="20220718 01:36:57.344"/>
+</kw>
+<status status="PASS" starttime="20220718 01:36:57.342" endtime="20220718 01:36:57.344"/>
+</kw>
+<doc>This test case is used for test api insert 1 working hero class but invalid salary
+Pre-condition: we will delete all data in DB.
+Step 1: generate data but for salary is 'aaabbbb' not a number.
+Step 2: send request to insert working class hero
+Step 3: assert response error
+Step 4: send query to get tax relief list
+Step 5: assert response of step 4 is empty due to there is no record is inserted.</doc>
+<tag>api</tag>
+<tag>calculator</tag>
+<tag>temp</tag>
+<status status="PASS" starttime="20220718 01:36:57.240" endtime="20220718 01:36:57.344"/>
+</test>
+<doc>This test suite contains all api test cases related to Calculator features.</doc>
+<status status="PASS" starttime="20220718 01:36:55.906" endtime="20220718 01:36:57.346"/>
+</suite>
+<status status="PASS" starttime="20220718 01:36:55.883" endtime="20220718 01:36:57.350"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">api</stat>
+<stat pass="1" fail="0" skip="0">calculator</stat>
+<stat pass="1" fail="0" skip="0">temp</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Api">Api</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="CalculatorApiTestsuite">Api.CalculatorApiTestsuite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

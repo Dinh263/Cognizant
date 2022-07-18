@@ -1,0 +1,8 @@
+robotframework
+robotframework-requests
+robotframework-browser
+robotframework-jsonlibrary
+robotframework-jsonvalidator
+requests
+robotframework-faker
+Faker
