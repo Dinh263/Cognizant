@@ -86,6 +86,28 @@ Run this command to check if python is installed or not
 ![check python version](./Oppenheimer/images/img8.png )
 
 # IV. Run Test case
+
+## 0. Create virtual env for testing.  
+To avoid with conflict with your existing dependencies. We advise to create your own virtual env for testing.  
+
++ step 1: after you clone the project to your local. Go to root folder where contain the file requirement.txt.
+
+![root folder](./Oppenheimer/images/img21.png )
+
++ step 2: open terminal and run this command to create your virtual env: virtualenv venv
+note: you have to install virtualenv in your computer. use this link to refer: https://www.deadbear.io/how-to-install-virtualenv-on-mac-os/
+
+![create virtual env ](./Oppenheimer/images/img22.png )
+
+after this you will see a folder name "venv" is created.
+![env folder ](./Oppenheimer/images/img23.png )
+
+
++ step 3: after you create virtual env with name "vevn" you need to activate it by using below command: source ./venv/bin/activate
+
+![activate virtual env ](./Oppenheimer/images/img24.png )
+
+
 ## 1. Install dependencies before running the test cases.
 
 Under the root folder "Oppenheimer" you will see a file called "requirement.txt". This file will contains all the dependencies required for our running test. 
